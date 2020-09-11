@@ -13,7 +13,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #b59397;
+    background-color: #5e3b40;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -165,8 +165,14 @@ header ul li a:hover{
 }
 
 
+
+
+
+
+
+
 /* (start) contacts style */
-.card{
+/* .card{
     width: 100px;
     height: 10px;
     background: #108d6f;
@@ -192,7 +198,11 @@ header ul li a:hover{
     outline: none;
     color: #ddd;
     transition: 0.5s;
-  }
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
   .contact-form-text:focus{
     box-shadow: 0 0 10px 4px #108d6f;
   }
@@ -209,8 +219,36 @@ header ul li a:hover{
     border-radius: 20px;
     cursor: pointer;
     transition: 0.5s;
-  }
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
   .contact-form-btn:hover{
-    background: #d29d46;
-  }
+    background: #d29d46; */
+  
  /* (end) contacts style */
+
+
+ .card{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 180px;
+    height: 280px;
+    max-width: 500 px;
+    max-height: 500px;
+}
+
+.btn{
+  color: rgb(200, 146, 66) !important;
+  background-color: #000;
+}
+
+.btn:hover {
+  background-color: rgb(207, 83, 83);
+}
