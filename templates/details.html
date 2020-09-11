@@ -6,4 +6,27 @@
 <h1>Bienvenue sur notre page de produits</h1>
 <b>Aller sur la <a href="{{ url_for('home') }}"> page d'acceuil </a></b>
 </center>
+
+
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="femme-tab" data-toggle="tab" href="#femme" role="tab" aria-controls="femme" aria-selected="true">Femme</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="enfant-tab" data-toggle="tab" href="#enfant" role="tab" aria-controls="enfant" aria-selected="false" title="Enfant">Enfant</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="homme-tab" data-toggle="tab" href="#homme" role="tab" aria-controls="homme" aria-selected="false">Homme</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="accessoires-tab" data-toggle="tab" href="#accessoires" role="tab" aria-controls="accessoires" aria-selected="false">Accessoires</a>
+    </li>
+</ul>
+
+<script>
+    $(function () {
+       $('#myTab li:first-child a').tab('show')
+     })
+</script>
 {% endblock %}
